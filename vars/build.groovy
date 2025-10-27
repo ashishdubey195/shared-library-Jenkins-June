@@ -18,7 +18,7 @@ def call(String mvnaction) {
                     }
                    else if ("${mvnaction}" == "Package")
                      {
-                         sh "mvn claen install package
+                         sh "mvn clean install package
 
          }
 }
